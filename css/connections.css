@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor__connections {
+    border: 0.313rem solid #cdcdcc;
+    display: flex;
+    flex-direction: column;
+    height: 20.938rem;
+    width: 16.25rem;
+    position: absolute;
+    top: 19.063rem;
+    left: 40.625rem;
+}
+
+.contenedor__connections_header {
+    align-items: center;
+    background-color: #454545;
+    display: flex;
+    height: 3.125rem;
+    justify-content: space-evenly;
+    padding: 0.938rem;
+    width: 100%;
+}
+
+.contenedor__connections_header-number {
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 0.938rem;
+    font-weight: 500;
+    height: 1.875rem;
+    padding: 0.313rem;
+    text-align: center;
+    width: 3.125rem;
+}
+
+.contenedor__connections_header-title {
+    color: white;
+    font-size: 1.063rem;
+    margin-left: 0.625rem;
+}
+
+.contenedor__connections__people {
+    display: flex;
+    flex-direction: column;
+    height: 14.375rem;
+    padding: 0.625rem;
+}
+
+.contenedor__connections__people-profile {
+    align-items: center;
+    display: flex;
+    margin: 0.438rem 0rem;
+}
+
+.user__connections_picture {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.contenedor__connections__people-profile p {
+    font-size: 1.25rem;
+    margin-left: 0.938rem;
+    text-align: center;
+}
+
+.contenedor__connections__link {
+    
+    border-top: 0.313rem solid #cdcdcc;
+    font-size: 1.125rem;
+    height: 2.5rem;
+    padding: 0.625rem;
+}
+
+.contenedor__connections__link p a {
+    color: blue;
+}
